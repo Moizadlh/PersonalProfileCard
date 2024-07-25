@@ -13,14 +13,14 @@ document.addEventListener('DOMContentLoaded', function() {
       counter.textContent = storedCounterValue;
   }
   else {
-      counter.textContent = '0';
+      counter.textContent = '21';
   }
 
   if (storedLikeValue !== null ) {
     likeCounter.textContent = storedLikeValue;
   } 
   else {
-    likeCounter.textContent = '0';
+    likeCounter.textContent = '23';
   }
 
   if (userHasClicked === 'true') {
